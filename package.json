@@ -1,0 +1,27 @@
+{
+  "name": "cypress-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "server": "node ./server/index.js",
+    "start": "live-server --no-browser",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "author": "Nicolas Payot <nicolas.payot@gmail.com> (http://nicolaspayot.github.io/)",
+  "license": "MIT",
+  "dependencies": {
+    "director": "^1.2.0",
+    "live-server": "^1.2.0",
+    "todomvc-app-css": "^2.0.0",
+    "todomvc-common": "^1.0.1",
+    "vue": "^2.1.8"
+  },
+  "devDependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "axios": "^0.17.1",
+    "cypress": "^1.4.1"
+  }
+}
